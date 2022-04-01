@@ -80,7 +80,7 @@ ul.user-stats{
 
 /* THIS STYLING BELOW WILL BE APPLICABLE FOR SCREENS BIGGER THAN 800PX (PC & LAPTOPS) */
 
-@media screen and (min-width:800px){
+@media screen and (min-width:700px){
     .search{
         width: 800px;
     }
