@@ -2,46 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>GithHub Profiles</title>
+    <title>Github Profiles</title>
     <link rel="stylesheet" href="style.css" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <form class="form-area">
-      <input type="text" class="search" placeholder="Search a GitHub profile" />
-      <div class="card">
-        <img
-          class="user-dp"
-          src="https://randomuser.me/api/portraits/women/43.jpg"
-          alt=""
-        />
-        <div class="bio">
-          <p class="bio-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-            architecto, nobis aperiam inventore dolores recusandae nemo saepe
-            deleniti fugit consequuntur ad culpa iure magni sunt itaque fuga,
-            autem adipisci. Rerum.
-          </p>
-        </div>
-        <ul class="user-stats">
-          <li><strong>300</strong> Followers</li>
-          <li><strong>78</strong> Following</li>
-          <li><strong>48</strong> Repositories</li>
-        </ul>
-        <div class="repo-area">
-          <a href="#" class="repo-link">Repo 1</a>
-          <a href="#" class="repo-link">Repo 2</a>
-          <a href="#" class="repo-link">Repo 3</a>
-        </div>
-      </div>
+    <form class="user-form" id="form">
+      <input type="text" id="search" placeholder="Search a Github User" />
     </form>
+    <main id="main"></main>
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"
-      integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ=="
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"
+      integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     ></script>
     <script src="script.js"></script>
   </body>
