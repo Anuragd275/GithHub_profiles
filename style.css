@@ -23,7 +23,7 @@ body {
 .user-form input {
   width: 100%;
   display: block;
-  background-color: #4c2885;
+  background-color: #1C2833;
   border: none;
   border-radius: 10px;
   color: #fff;
@@ -45,7 +45,7 @@ body {
 
 .card {
   max-width: 800px;
-  background-color: #4c2885;
+  background-color: #2C3E50;
   border-radius: 20px;
   box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
     0 15px 40px rgba(0, 0, 0, 0.1);
@@ -56,7 +56,7 @@ body {
 
 .avatar {
   border-radius: 50%;
-  border: 10px solid #2a2a72;
+  border: 10px solid #424949;
   height: 150px;
   width: 150px;
 }
