@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #2a2a72;
+  background-color: #17202A;
   color: #fff;
   font-family: 'Poppins', sans-serif;
   display: flex;
@@ -91,7 +91,7 @@ body {
 .repo {
   text-decoration: none;
   color: #fff;
-  background-color: #212a72;
+  background-color: #17202A;
   font-size: 0.7rem;
   padding: 0.25rem 0.5rem;
   margin-right: 0.5rem;
